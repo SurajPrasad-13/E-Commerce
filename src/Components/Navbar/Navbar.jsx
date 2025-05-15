@@ -1,10 +1,42 @@
-import React from 'react'
-import './Navbar.css'
-
+import "./Navbar.css";
+import logo from "../../assets/logo.webp";
+import cart_icon from "../../assets/cart_icon.png";
+import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
-    <div>Navbar</div>
-  )
-}
+    <nav>
+      <div className="navbar">
+        <div className="nav-logo">
+          <img src={logo} height="50px" alt="" />
+          <p>Shopify</p>
+        </div>
+        <ul className="nav-menu">
+          <li>
+            <NavLink className={({isActive})=>isActive?'nav-active-link':''} to="/">Home</NavLink>
+          </li>
+          <li>
+            <NavLink className={({isActive})=>isActive?'nav-active-link':''} to="/mens">Men</NavLink>
+          </li>
+          <li>
+            <NavLink className={({isActive})=>isActive?'nav-active-link':''} to="/womens">Women</NavLink>
+          </li>
+          <li>
+            <NavLink className={({isActive})=>isActive?'nav-active-link':''} to="/kids">Kids</NavLink>
+          </li>
+        </ul>
+        <div className="nav-login-cart">
+          <NavLink to='/login'>
+          <button>Login</button>
 
-export default Navbar
+          </NavLink>
+          <NavLink to='/cart'>
+          <img src={cart_icon} alt="" height="40px" />
+          </NavLink>
+          <div className="nav-cart-count">0</div>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;

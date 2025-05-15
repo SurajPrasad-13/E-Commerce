@@ -1,16 +1,6 @@
-import { useState } from 'react'
-import './App.css'
-import Navbar from './Components/Navbar/Navbar'
-
+import "./App.css";
+import Layout from "./Routes/Layout";
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <Navbar/>
-      
-    </>
-  )
+  return <Layout />;
 }
-
-export default App
+export default App;
