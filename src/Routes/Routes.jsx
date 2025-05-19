@@ -1,7 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Mens from "../Components/Mens";
-import Home from "../Components/Home";
 import Womens from "../Components/Womens";
 import Kids from "../Components/Kids";
 import ShopCategory from "../Pages/ShopCategory";
