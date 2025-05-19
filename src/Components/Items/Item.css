@@ -17,6 +17,7 @@
   width: 200px;
   height: 290px;
   margin: 3px;
+  object-fit: cover;
 }
 
 .item-prices {
