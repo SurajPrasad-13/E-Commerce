@@ -4,7 +4,7 @@ import cart_icon from "../../assets/cart_icon.png";
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
-    <nav>
+    
       <div className="navbar">
         <div className="nav-logo">
           <img src={logo} height="50px" alt="" />
@@ -35,7 +35,7 @@ const Navbar = () => {
           <div className="nav-cart-count">0</div>
         </div>
       </div>
-    </nav>
+    
   );
 };
 

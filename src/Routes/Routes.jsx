@@ -9,15 +9,18 @@ import LoginSignup from "../Pages/LoginSignup";
 import Cart from "../Pages/Cart";
 import Shop from "../Pages/Shop";
 
+import men_banner from '../assets/banner.jpg'
+import women_banner from '../assets/women_banner.avif'
+import kids_banner from '../assets/kids_banner.jpg'
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
       { path: "", element: <Shop /> },
-      { path: "kids", element: <ShopCategory category="kids" /> },
-      { path: "mens", element: <ShopCategory category="mens" /> },
-      { path: "womens", element: <ShopCategory category="womens" /> },
+      { path: "kids", element: <ShopCategory banner ={men_banner} category="kid" /> },
+      { path: "mens", element: <ShopCategory banner ={women_banner} category="men" /> },
+      { path: "womens", element: <ShopCategory banner ={kids_banner} category="women" /> },
       { path: "product", element: <Product /> },
       { path: ":productId", element: <Product /> },
       { path: "cart", element: <Cart /> },
