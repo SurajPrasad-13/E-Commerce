@@ -22,7 +22,7 @@ export const router = createBrowserRouter([
       { path: "mens", element: <ShopCategory banner ={women_banner} category="men" /> },
       { path: "womens", element: <ShopCategory banner ={kids_banner} category="women" /> },
       { path: "product", element: <Product /> },
-      { path: ":productId", element: <Product /> },
+      { path: "product/:productId", element: <Product /> },
       { path: "cart", element: <Cart /> },
       { path: "login", element: <LoginSignup /> },
     ],
