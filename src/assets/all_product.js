@@ -10,7 +10,7 @@ import p9_img from "../assets/men5.webp";
 import p10_img from "../assets/women5.webp";
 import p11_img from "../assets/men6.webp";
 import p12_img from "../assets/women6.webp";
-import p13_img from "../assets/men7.jfif";
+import p13_img from "../assets/men7.jpg";
 import p14_img from "../assets/women7.webp";
 import p15_img from "../assets/men8.jpg";
 import p16_img from "../assets/women8.jfif";
