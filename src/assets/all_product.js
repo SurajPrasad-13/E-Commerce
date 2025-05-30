@@ -1,46 +1,45 @@
-import p1_img from "../assets/women1.jfif";
-import p2_img from "../assets/men1.webp";
-import p3_img from "../assets/women2.jpg";
-import p4_img from "../assets/men2.jpg";
-import p5_img from "../assets/men3.webp";
-import p6_img from "../assets/women3.jpg";
-import p7_img from "../assets/men4.jfif";
-import p8_img from "../assets/women4.webp";
-import p9_img from "../assets/men5.webp";
+import p1_img from "../assets/women1.jpg";
+import p2_img from "../assets/women2.jpg";
+import p3_img from "../assets/women3.jpg";
+import p4_img from "../assets/women4.webp";
 import p10_img from "../assets/women5.webp";
-import p11_img from "../assets/men6.webp";
 import p12_img from "../assets/women6.webp";
-import p13_img from "../assets/men7.jpg";
 import p14_img from "../assets/women7.webp";
+import p16_img from "../assets/women8.webp";
+import p17_img from "../assets/women9.webp";
+import p18_img from "../assets/women11.webp";
+import p19_img from "../assets/women10.avif";
+import p20_img from "../assets/women12.avif";
+import p5_img from "../assets/men1.webp";
+import p6_img from "../assets/men2.jpg";
+import p7_img from "../assets/men3.webp";
+import p8_img from "../assets/men4.jfif";
+import p9_img from "../assets/men5.webp";
+import p11_img from "../assets/men6.webp";
+import p13_img from "../assets/men7.jpg";
 import p15_img from "../assets/men8.jpg";
-import p16_img from "../assets/women8.jfif";
-// import p17_img from '../assets/p1.jpg'
-// import p18_img from '../assets/p1.jpg'
-// import p19_img from '../assets/p1.jpg'
-// import p20_img from '../assets/p1.jpg'
 import p21_img from "../assets/kid1.jpg";
-// import p22_img from '../assets/p1.jpg'
 import p23_img from "../assets/kid2.jfif";
-// import p24_img from '../assets/p1.jpg'
 import p25_img from "../assets/kid3.jfif";
-// import p26_img from '../assets/p1.jpg'
 import p27_img from "../assets/kid4.webp";
-// import p28_img from '../assets/p1.jpg'
 import p29_img from "../assets/kid5.jfif";
-// import p30_img from '../assets/p1.jpg'
 import p31_img from "../assets/kid6.jfif";
-// import p32_img from '../assets/p1.jpg'
 import p33_img from "../assets/kid7.webp";
-// import p34_img from '../assets/p1.jpg'
 import p35_img from "../assets/kid8.jfif";
-// import p36_img from '../assets/p1.jpg'
+// 17 18 19 20 22 24 26 28 30 32 34
 let all_product = [
-  
-
+  {
+    id: 1,
+    name: "Long Kurta",
+    category: "women",
+    image: p1_img,
+    new_price: 709.0,
+    old_price: 1109.5,
+  },
   {
     id: 2,
-    name: "Jeans",
-    category: "men",
+    name: "Saree",
+    category: "women",
     image: p2_img,
     new_price: 609.0,
     old_price: 909.5,
@@ -55,15 +54,15 @@ let all_product = [
   },
   {
     id: 4,
-    name: "Jacket",
-    category: "men",
+    name: "Leggings",
+    category: "women",
     image: p4_img,
     new_price: 909.0,
     old_price: 1490.0,
   },
   {
     id: 5,
-    name: "T-Shirt",
+    name: "Brown Shirt",
     category: "men",
     image: p5_img,
     new_price: 459.0,
@@ -71,15 +70,15 @@ let all_product = [
   },
   {
     id: 6,
-    name: "Dress",
-    category: "women",
+    name: "Formal Dress",
+    category: "men",
     image: p6_img,
     new_price: 859.0,
     old_price: 1390.0,
   },
   {
     id: 7,
-    name: "Hoodie",
+    name: "Casual Dress",
     category: "men",
     image: p7_img,
     new_price: 959.0,
@@ -87,15 +86,15 @@ let all_product = [
   },
   {
     id: 8,
-    name: "Leggings",
-    category: "women",
+    name: "Cargo Pants",
+    category: "men",
     image: p8_img,
     new_price: 559.0,
     old_price: 1090.0,
   },
   {
     id: 9,
-    name: "Shirt",
+    name: "Sleeve less Jacket",
     category: "men",
     image: p9_img,
     new_price: 709.0,
@@ -127,7 +126,7 @@ let all_product = [
   },
   {
     id: 13,
-    name: "Shorts",
+    name: "Long Jacket",
     category: "men",
     image: p13_img,
     new_price: 409.0,
@@ -143,7 +142,7 @@ let all_product = [
   },
   {
     id: 15,
-    name: "Kurta",
+    name: "White T-Shirt",
     category: "men",
     image: p15_img,
     new_price: 789.0,
@@ -213,7 +212,7 @@ let all_product = [
 
   {
     id: 33,
-    name: "Gym Shorts",
+    name: "Shorts and T-Shirt",
     category: "kid",
     image: p33_img,
     new_price: 559.0,
@@ -227,6 +226,38 @@ let all_product = [
     image: p35_img,
     new_price: 1095.0,
     old_price: 1790.0,
+  },
+  {
+    id: 36,
+    name: "Blue Gown",
+    category: "women",
+    image: p17_img,
+    new_price: 1209,
+    old_price: 1909.5,
+  },
+  {
+    id: 37,
+    name: "Black JumpSuit",
+    category: "women",
+    image: p18_img,
+    new_price: 909,
+    old_price: 1409.5,
+  },
+  {
+    id: 38,
+    name: "Gym Leggings",
+    category: "women",
+    image: p19_img,
+    new_price: 709,
+    old_price: 1109.5,
+  },
+  {
+    id: 39,
+    name: "Pink Gown",
+    category: "women",
+    image: p20_img,
+    new_price: 1609,
+    old_price: 2209.5,
   },
 ];
 

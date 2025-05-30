@@ -1,41 +1,44 @@
-import p1_img from "../assets/p1.jfif";
-import p2_img from "../assets/p2.jfif";
-import p3_img from "../assets/p3.avif";
-import p4_img from "../assets/p4.jfif";
+// import p1_img from "../assets/p1.jfif";
+// import p2_img from "../assets/p2.jfif";
+// import p3_img from "../assets/p3.avif";
+// import p4_img from "../assets/p4.jfif";
+import p1_img from "../assets/women1.jpg";
+import p2_img from "../assets/women2.jpg";
+import p3_img from "../assets/women3.jpg";
+import p4_img from "../assets/women4.webp";
 
 let data_product = [
   {
     id: 1,
-    name: "Kurti",
+    name: "Long Kurta",
     category: "women",
     image: p1_img,
-    new_price: 'Rs.590.0',
-    old_price: 'Rs.899.5',
+    new_price: 709.0,
+    old_price: 1109.5,
   },
-
   {
     id: 2,
-    name: "Jeans",
-    category: "men",
+    name: "Saree",
+    category: "women",
     image: p2_img,
-    new_price: 'Rs.690.0',
-    old_price: 'Rs.999.5',
+    new_price: 609.0,
+    old_price: 909.5,
   },
   {
     id: 3,
-    name: "Saree",
+    name: "Dress",
     category: "women",
     image: p3_img,
-    new_price: 'Rs.795.0',
-    old_price: 'Rs.1299.0',
+    new_price: 759.0,
+    old_price: 1290.0,
   },
   {
     id: 4,
-    name: "Jacket",
-    category: "men",
+    name: "leggings",
+    category: "women",
     image: p4_img,
-    new_price: 'Rs.990.0',
-    old_price: 'Rs.1499.0',
+    new_price: 909.0,
+    old_price: 1490.0,
   },
 ];
 

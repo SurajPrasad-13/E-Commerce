@@ -10,7 +10,7 @@ import Cart from "../Pages/Cart";
 import Shop from "../Pages/Shop";
 
 import men_banner from '../assets/banner.jpg'
-import women_banner from '../assets/women_banner.avif'
+import women_banner from '../assets/women_banner.jpg'
 import kids_banner from '../assets/kids_banner.jpg'
 export const router = createBrowserRouter([
   {
