@@ -1,11 +1,3 @@
-// import p1_img from "../assets/1.avif";
-// import p5_img from "../assets/men3.webp";
-// import p6_img from "../assets/women3.jpg";
-// import p7_img from "../assets/men4.jfif";
-// import p8_img from "../assets/women4.webp";
-// import p9_img from "../assets/men5.webp";
-// import p10_img from "../assets/women5.webp";
-// import p11_img from "../assets/men6.webp";
 import p2_img from "../assets/women2.jpg";
 import p16_img from "../assets/women8.webp";
 import p5_img from "../assets/men1.webp";

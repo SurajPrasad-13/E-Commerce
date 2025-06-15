@@ -1,7 +1,3 @@
-// import p1_img from "../assets/p1.jfif";
-// import p2_img from "../assets/p2.jfif";
-// import p3_img from "../assets/p3.avif";
-// import p4_img from "../assets/p4.jfif";
 import p1_img from "../assets/women1.jpg";
 import p2_img from "../assets/women2.jpg";
 import p3_img from "../assets/women3.jpg";

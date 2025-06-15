@@ -2,22 +2,22 @@ import p1_img from "../assets/women1.jpg";
 import p2_img from "../assets/women2.jpg";
 import p3_img from "../assets/women3.jpg";
 import p4_img from "../assets/women4.webp";
-import p10_img from "../assets/women5.webp";
-import p12_img from "../assets/women6.webp";
-import p14_img from "../assets/women7.webp";
-import p16_img from "../assets/women8.webp";
-import p17_img from "../assets/women9.webp";
-import p18_img from "../assets/women11.webp";
-import p19_img from "../assets/women10.avif";
-import p20_img from "../assets/women12.avif";
 import p5_img from "../assets/men1.webp";
 import p6_img from "../assets/men2.jpg";
 import p7_img from "../assets/men3.webp";
 import p8_img from "../assets/men4.jfif";
 import p9_img from "../assets/men5.webp";
+import p10_img from "../assets/women5.webp";
 import p11_img from "../assets/men6.webp";
+import p12_img from "../assets/women6.webp";
 import p13_img from "../assets/men7.jpg";
+import p14_img from "../assets/women7.webp";
 import p15_img from "../assets/men8.jpg";
+import p16_img from "../assets/women8.webp";
+import p17_img from "../assets/women9.webp";
+import p18_img from "../assets/women11.webp";
+import p19_img from "../assets/women10.avif";
+import p20_img from "../assets/women12.avif";
 import p21_img from "../assets/kid1.jpg";
 import p23_img from "../assets/kid2.jfif";
 import p25_img from "../assets/kid3.jfif";
@@ -26,7 +26,7 @@ import p29_img from "../assets/kid5.jfif";
 import p31_img from "../assets/kid6.jfif";
 import p33_img from "../assets/kid7.webp";
 import p35_img from "../assets/kid8.jfif";
-// 17 18 19 20 22 24 26 28 30 32 34
+// 22 24 26 28 30 32 34
 let all_product = [
   {
     id: 1,
