@@ -3,7 +3,7 @@ import "./CartItems.css";
 import { ShopContext } from "../../Context/ShopContext";
 import remove_icon from "../../assets/remove.webp";
 const CartItems = () => {
-  const { all_product, cartItems, removeFromCart } = useContext(ShopContext);
+  const { all_product, cartItems, removeFromCart,getTotalCartAmount } = useContext(ShopContext);
   return (
     <div className="cartItems">
       <div className="cartitems-format-main">
@@ -41,7 +41,7 @@ const CartItems = () => {
         return null;
       })}
 
-      {/* <div className="cartitems-down">
+      <div className="cartitems-down">
         <div className="cartitems-total">
           <h1>cart Totals</h1>
           <div>
@@ -69,7 +69,7 @@ const CartItems = () => {
             <button>submit</button>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
