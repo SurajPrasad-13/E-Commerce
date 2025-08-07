@@ -15,7 +15,7 @@ import p14_img from "../assets/women7.webp";
 import p15_img from "../assets/men8.jpg";
 import p16_img from "../assets/women8.webp";
 import p17_img from "../assets/women9.webp";
-import p18_img from "../assets/women11.webp";
+import p18_img from "../assets/women10.webp";
 import p19_img from "../assets/women10.avif";
 import p20_img from "../assets/women12.avif";
 import p21_img from "../assets/kid1.jpg";
@@ -34,7 +34,7 @@ let all_product = [
     category: "women",
     image: p1_img,
     new_price: 709.0,
-    old_price: 1109.5,
+    old_price: 1109.9,
   },
   {
     id: 2,
@@ -42,7 +42,7 @@ let all_product = [
     category: "women",
     image: p2_img,
     new_price: 609.0,
-    old_price: 909.5,
+    old_price: 909.9,
   },
   {
     id: 3,
@@ -233,15 +233,15 @@ let all_product = [
     category: "women",
     image: p17_img,
     new_price: 1209,
-    old_price: 1909.5,
+    old_price: 1909.9,
   },
   {
     id: 37,
-    name: "Black JumpSuit",
+    name: "Brown dress",
     category: "women",
     image: p18_img,
-    new_price: 909,
-    old_price: 1409.5,
+    new_price: 1509,
+    old_price: 2409.9,
   },
   {
     id: 38,
@@ -249,7 +249,7 @@ let all_product = [
     category: "women",
     image: p19_img,
     new_price: 709,
-    old_price: 1109.5,
+    old_price: 1109.9,
   },
   {
     id: 39,
@@ -257,7 +257,7 @@ let all_product = [
     category: "women",
     image: p20_img,
     new_price: 1609,
-    old_price: 2209.5,
+    old_price: 2209.9,
   },
 ];
 
